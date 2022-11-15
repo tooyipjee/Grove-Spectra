@@ -1,2 +1,0 @@
-# Grove-Spectra
- 
