@@ -472,7 +472,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Grove-Spectra.step",
       "vrml": ""
     },
     "page_layout_descr_file": "C:/Users/tooyi/OneDrive/KiCad/Title Template.kicad_wks"

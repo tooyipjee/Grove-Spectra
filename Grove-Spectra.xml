@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Github\elektroThing\Grove-Spectra\Grove-Spectra.kicad_sch</source>
-    <date>15/11/2022 20:58:45</date>
+    <date>23/11/2022 19:09:56</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Grove Spectrometer</title>
         <company/>
         <rev>A</rev>
-        <date>2022-11-15</date>
+        <date>2022-11-22</date>
         <source>Grove-Spectra.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -178,6 +178,42 @@
       <property name="Sheetfile" value="Grove-Spectra.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>656203b8-2496-463d-a564-4049bc862a59</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>personal:Product Stamp</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grove-Spectra.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d27bec1-8ec1-4630-9bc9-b8dbbfd0db80</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grove-Spectra.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>483b8f11-52ae-450a-9324-d9f0c34139f3</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grove-Spectra.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5e10107-581d-4cf0-a4ec-0d200fc8359b</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grove-Spectra.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dc52309-427e-4ccc-bea0-b10b1df03758</tstamps>
     </comp>
     <comp ref="IC1">
       <value>PCA9536DP,118</value>
@@ -563,6 +599,30 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
     <libpart lib="Power-Drivers_JLC" part="SPX3819M5-L-1-8_TR">
       <description>MAX LINEAR - SPX3819M5-L-1-8/TR - Fixed LDO Voltage Regulator, 2.5V to 16V, 340mV drop, 1.8V/500mA out, SOT-23-5</description>
       <docs>https://ms.componentsearchengine.com/Datasheets/2/SPX3819M5-L-1-8_TR.pdf</docs>
@@ -746,6 +806,9 @@
     </library>
     <library logical="Diode_JLC">
       <uri>C:/Users/tooyi/OneDrive/KiCad/JLC/Diode_JLC.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
     <library logical="Power-Drivers_JLC">
       <uri>C:/Users/tooyi/OneDrive/KiCad/JLC/Power-Drivers_JLC.kicad_sym</uri>

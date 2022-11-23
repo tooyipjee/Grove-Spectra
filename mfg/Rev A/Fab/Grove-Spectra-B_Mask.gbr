@@ -1,23 +1,34 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
-%TF.CreationDate,2022-11-15T20:59:03+00:00*%
+%TF.CreationDate,2022-11-23T19:14:59+00:00*%
 %TF.ProjectId,Grove-Spectra,47726f76-652d-4537-9065-637472612e6b,A*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-11-15 20:59:03*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-11-23 19:14:59*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10R,1.700000X1.700000*%
-%ADD11O,1.700000X1.700000*%
+%ADD10C,2.200000*%
+%ADD11R,1.700000X1.700000*%
+%ADD12O,1.700000X1.700000*%
 G04 APERTURE END LIST*
 D10*
+%TO.C,H2*%
+X130250000Y-98550000D03*
+%TD*%
+%TO.C,H3*%
+X160250000Y-88550000D03*
+%TD*%
+%TO.C,H1*%
+X130250000Y-78550000D03*
+%TD*%
+D11*
 %TO.C,J2*%
 X144425000Y-93600000D03*
-D11*
+D12*
 X146965000Y-93600000D03*
 %TD*%
 M02*
